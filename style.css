@@ -14,10 +14,17 @@ colors:
 */
 
 body {
+  background-image: url("./img/bg.jpg");
+  padding: 10px;
+}
+
+body > div {
+  background-color: white;
   font-family: helvetica, arial, sans-serif;
   line-height: 1.6;
   border: 2px solid #ffd24a;
-  margin: 0;
+  margin: 0 auto;
+  width: 75%;
 }
 
 header {
@@ -36,4 +43,36 @@ nav a {
   font-weight: bold;
   border: 1px solid white;
   padding: 6px 23px;
+}
+
+h2, h3, section a {
+  color: #1fabe5;
+}
+
+#page_content {
+  margin: 20px;
+}
+
+ul li {
+  font-weight: bold;
+}
+
+#page_content > section {
+  padding: 10px 0 50px 0;
+  border-bottom: 5px solid #eee;
+}
+
+table {
+  border: 1px solid #1fabe5;
+  border-spacing: 0;
+}
+
+thead {
+  background-color: #1fabe5;
+  color: white;
+}
+
+thead  td {
+  border-spacing: 0;
+  border: 1px solid #046c97;
 }
