@@ -12,3 +12,16 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.6;
+  border: 2px solid #ffd24a;
+  margin: 0;
+}
+
+header {
+  background-color: #ff8523;
+  color: ##eee;
+  padding: 10px;
+}
