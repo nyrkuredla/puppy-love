@@ -22,6 +22,18 @@ body {
 
 header {
   background-color: #ff8523;
-  color: ##eee;
   padding: 10px;
+}
+
+nav {
+  padding: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 6px 23px;
 }
