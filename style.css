@@ -63,8 +63,9 @@ ul li {
 }
 
 table {
-  border: 1px solid #1fabe5;
-  border-spacing: 0;
+  border-collapse: collapse;
+  width: 95%;
+  margin: 0 auto;
 }
 
 thead {
@@ -75,4 +76,36 @@ thead {
 thead  td {
   border-spacing: 0;
   border: 1px solid #046c97;
+  padding: 5px;
+}
+
+tbody td {
+  padding: 5px;
+  border: 1px solid #1fabe5;
+}
+
+table img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+form {
+  background-color: #dddddd;
+  padding: 15px;
+}
+
+form div.name {
+  background-color: #ff8523;
+  color: white;
+  font-weight: normal;
+  padding: 15px;
+}
+
+form div.name input {
+  border: white;
+  height: 30px;
+  width: 30%;
+  margin: 0 auto;
+  padding: 0 10px;
 }
