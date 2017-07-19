@@ -42,6 +42,7 @@ nav a {
   font-size: 12px;
   font-weight: bold;
   border: 1px solid white;
+  border-radius: 5px;
   padding: 6px 23px;
 }
 
@@ -76,11 +77,11 @@ thead {
 thead  td {
   border-spacing: 0;
   border: 1px solid #046c97;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 tbody td {
-  padding: 5px;
+  padding: 5px 10px;
   border: 1px solid #1fabe5;
 }
 
@@ -93,6 +94,8 @@ table img {
 form {
   background-color: #dddddd;
   padding: 15px;
+  border-radius: 5px;
+  font-size: 0.8em;
 }
 
 form div.name {
@@ -100,6 +103,7 @@ form div.name {
   color: white;
   font-weight: normal;
   padding: 15px;
+  border-radius: 5px;
 }
 
 form div.name input {
@@ -107,5 +111,9 @@ form div.name input {
   height: 30px;
   width: 30%;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 15px;
+}
+
+form div.city_container {
+  padding: 15px;
 }
