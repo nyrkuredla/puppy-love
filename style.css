@@ -15,7 +15,7 @@ colors:
 
 body {
   background-image: url("./img/bg.jpg");
-  padding: 10px;
+  padding: 5px;
 }
 
 body > div {
@@ -39,11 +39,11 @@ nav {
 nav a {
   text-decoration: none;
   color: white;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   border: 1px solid white;
   border-radius: 5px;
-  padding: 6px 23px;
+  padding: 10px 30px;
 }
 
 h2, h3, section a {
@@ -86,23 +86,23 @@ tbody td {
 }
 
 table img {
-  height: 100px;
-  width: 100px;
-  padding: 10px;
+  height: 60px;
+  width: 60px;
+  padding: 15px 5px 5px 15px;
 }
 
 form {
   background-color: #dddddd;
   padding: 15px;
   border-radius: 5px;
-  font-size: 0.8em;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 form div.name {
   background-color: #ff8523;
   color: white;
-  font-weight: normal;
-  padding: 15px;
+  padding: 15px 0px 15px 15px;
   border-radius: 5px;
 }
 
