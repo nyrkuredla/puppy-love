@@ -115,5 +115,27 @@ form div.name input {
 }
 
 form div.city_container {
-  padding: 15px;
+  padding: 15px 0;
+}
+
+form div:nth-child(3) {
+  padding: 15px 0;
+}
+
+form div:nth-child(3) textarea {
+  width: 95%;
+  border: 1px solid #1fabe5;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+form div.submit_container input {
+  border-radius: 5px;
+  border: none;
+  background-color: #1fabe5;
+  color: white;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  box-shadow: none;
 }
